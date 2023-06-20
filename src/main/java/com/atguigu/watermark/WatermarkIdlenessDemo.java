@@ -1,7 +1,5 @@
 package com.atguigu.watermark;
 
-import com.atguigu.bean.WaterSensor;
-import com.atguigu.functions.WaterSensorMapFunction;
 import com.atguigu.partition.MyPartitioner;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;

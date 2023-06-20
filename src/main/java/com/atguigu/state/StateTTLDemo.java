@@ -3,7 +3,6 @@ package com.atguigu.state;
 import com.atguigu.bean.WaterSensor;
 import com.atguigu.functions.WaterSensorMapFunction;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
-import org.apache.flink.api.common.restartstrategy.RestartStrategies;
 import org.apache.flink.api.common.state.StateTtlConfig;
 import org.apache.flink.api.common.state.ValueState;
 import org.apache.flink.api.common.state.ValueStateDescriptor;

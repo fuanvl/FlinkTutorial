@@ -1,14 +1,10 @@
 package com.atguigu.sql;
 
 import com.atguigu.bean.WaterSensor;
-import org.apache.flink.api.common.typeinfo.Types;
-import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.table.api.Table;
 import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
-
-import static org.apache.flink.table.api.Expressions.$;
 
 /**
  * TODO
